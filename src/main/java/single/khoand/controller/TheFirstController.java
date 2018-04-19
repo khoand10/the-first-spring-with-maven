@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class TheFirstController {
 	@RequestMapping("/")
-	@ResponseBody
+	/*@ResponseBody*/
 	public String loadIndex() {
-		return "pages/index";
+		return "index.jsp";
 	}
 }
